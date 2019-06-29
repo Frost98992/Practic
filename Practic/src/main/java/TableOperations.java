@@ -23,10 +23,10 @@ public class TableOperations {
     ResultSet result;
 
     void add() throws SQLException {
-        System.out.println("Введите имя студента: ");
-        name = in.next();
         System.out.println("Введите фамилию студента: ");
         surname = in.next();
+        System.out.println("Введите имя студента: ");
+        name = in.next();
         System.out.println("Введите факультет студента: ");
         faculty = in.next();
 
